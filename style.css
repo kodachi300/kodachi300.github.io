@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+html {
+      background-color: #1e1e2e;
+      align-items: center;
+      color: #f5e0dc;
+      display: flex;
+      font-family: 'Ubuntu Mono', monospace;
+      font-size: 25px;
+      height: 100%;
+      justify-content: center;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      margin: 1em;
+      padding: 1em;
+    }
+
+    h1 {
+      font-size: 2em;
+      grid-column: 1 / -1;
+      margin: 0;
+      text-align: center;
+      color: #f38ba8;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #89b4fa;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 1em;
+      min-width: 24em;
+      padding: 1em 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;
+    }
+
+    li:first-child {
+      font-weight: bold;
+      line-height: 2em;
+      color: #cba6f7;
+    }
+
+    img {
+      border: 2px solid #f2cdcd;
+      height: auto;
+      object-fit: cover;
+      object-position: 50% 100%;
+      width: 10em;
+    }
+
+input {
+  background-color: unset;
+  font: 16px 'Ubuntu Mono', monospace;
+  color: #f2cdcd;
+  height: 100%;
+  width: 100%;
+  border-top-style: hidden;
+  border-bottom-style: soild;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-color: #fab387;
+  text-align: center;
+  margin-top: 50px;
+  outline: 0;
+  padding-bottom: 0.5em;
+}
